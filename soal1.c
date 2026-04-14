@@ -7,15 +7,15 @@ int main() {
     for (int i = 1; i <= N; i++) {
         printf("\n");
         if ((i % 2 == 0) && (i % 3 == 0)) {
-            printf("BIRU");
+            printf("BIRU\n");
         } else if (i % 3 == 0) {
-            printf("MERAH");
+            printf("MERAH\n");
         } else if (i % 2 == 0) {
-            printf("KUNING");
+            printf("KUNING\n");
         } else if ((i >= 10) && (i % 2 == 0)) {
-            printf("HIJAU");
+            printf("HIJAU\n");
         } else {
-            printf("%d", i);
+            printf("%d\n", i);
         }
     }
 
